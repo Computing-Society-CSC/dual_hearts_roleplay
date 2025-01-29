@@ -1,0 +1,23 @@
+{
+    "users": {
+        "user_56789": {
+            "player_name": "Traveler",
+            "previous_encounters": [
+                {
+                    "date": "2025-01-29",
+                    "topics": [
+                        "Tell me about destiny."
+                    ]
+                },
+                {
+                    "date": "2025-01-29",
+                    "topics": [
+                        "Tell me about destiny."
+                    ]
+                }
+            ],
+            "relationship_status": "Stranger",
+            "player_choices": []
+        }
+    }
+}
