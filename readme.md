@@ -17,8 +17,7 @@ A conversational AI designed for immersive **role-playing experiences**. The bot
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/roleplay-bot.git
-cd roleplay-bot
+git clone https://github.com/gugu-py/dual_hearts_roleplay.git
 ```
 
 ### 2️⃣ **Install Dependencies**
