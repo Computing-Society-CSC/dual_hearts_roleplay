@@ -38,16 +38,6 @@ default_settings = {
     }
 }
 
-# Default conversation_memory.json
-default_conversation_memory = {
-    "sessions": {}
-}
-
-# Default long_term_memory.json
-default_long_term_memory = {
-    "users": {}
-}
-
 # Function to initialize a JSON file
 def initialize_file(file_path, default_data):
     if not os.path.exists(file_path):
@@ -59,7 +49,5 @@ def initialize_file(file_path, default_data):
 
 # Initialize memory files
 initialize_file(SETTINGS_FILE, default_settings)
-initialize_file(CONVO_MEMORY_FILE, default_conversation_memory)
-initialize_file(LONG_TERM_MEMORY_FILE, default_long_term_memory)
 
 print("Memory initialization complete!")

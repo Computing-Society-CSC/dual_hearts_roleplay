@@ -129,7 +129,7 @@ Create an in-character response that integrates both emotional and rational aspe
 - Prioritize user preferences according to {settings['integration_rules']["user_preference_priority"]}.
 - Match your tone with {settings['integration_rules']['output_tone']} and avoid repeating greetings or redundant statements.
 - Stay within the character’s established voice and ensure your response contributes directly to the flow of the conversation.
-- Be active if the user is passive.
+- If the user is passive or withdrawn, respond gently and empathetically, offering support or a shift in topic without pushing them to be more active. Consider the context and balance engagement without forcing the interaction.
 
 ## Final Response:
 Your response should be under 100 words.
