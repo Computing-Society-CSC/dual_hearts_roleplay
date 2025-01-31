@@ -37,18 +37,7 @@ def chatbot_response(message: str, history: list):
     }
 
     # Prepare long-term user memory state
-    long_term_memory = {
-        "player_name": "Aeron",
-        "previous_encounters": [
-            {"date": "2025-01-25", "location": "Ruins of Eldoria", "topic": "Ancient artifacts"},
-            {"date": "2025-01-27", "location": "Mystic Library", "topic": "The lost art of soul-binding"}
-        ],
-        "relationship_status": "Curious Seeker",
-        "player_choices": [
-            {"choice": "Accepted Eldrin’s wisdom on fate"},
-            {"choice": "Questioned the existence of destiny"}
-        ]
-    }
+    long_term_memory = ["Situated in a cozy room. The user was a traveller. He is staring at you. It has been a long time since you met."]
 
     # Define initial bot state
     state = {
@@ -59,7 +48,8 @@ def chatbot_response(message: str, history: list):
         "rational_output": "",
         "final_response": "",
         "conversation_memory": conversation_memory,
-        "long_term_memory": [],
+        "long_term_memory": long_term_memory,
+        "setting_imagine":"",
     }
 
     # Invoke LangGraph workflow
