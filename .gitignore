@@ -1,3 +1,7 @@
 /venv/
 /__pycache__/
 /config.py
+
+# IDE files (e.g., PyCharm, VSCode)
+.idea/
+.vscode/
