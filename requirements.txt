@@ -1,5 +1,7 @@
-langchain-groq
 langgraph
 gradio
 fsspec
 langchain
+
+# langchain-groq
+langchain_openai
