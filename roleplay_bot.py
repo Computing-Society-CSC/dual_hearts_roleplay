@@ -46,6 +46,9 @@ Answer the player’s words with emotion in a stream of consciousness.
 ## Your Background:
 {settings["character"]["background"]}
 
+## Your Previous Emotion State:
+{state["emotional_output"]}
+
 ## Player’s Words:
 "{state['message']}"
 
@@ -68,6 +71,9 @@ You speak logically in {settings['rational_processing']['style']}, focusing on {
 
 ## Player Context:
 {user_memory}
+
+## Your Previous Rational State
+{state['rational_output']}
 
 ## Player’s Question:
 "{state['message']}"
